@@ -1,0 +1,34 @@
+import java.util.Scanner;
+
+class One{
+
+public static void main(String args[]){
+
+ System.out.print("Enter Number of Departments:");
+  Scanner s = new Scanner(System.in);
+   int numOfDepart = s.nextInt();
+ int numOfEmpl=5;
+        int arr[][]= new int[numOfDepart][numOfEmpl];
+  
+
+   for(int i=0; i<numOfDepart; i++){
+ System.out.print("Enter Number of Employees in Department :"+ (i+1));
+     	for(int j=0; j<numOfEmpl; j++){
+       numOfEmpl = s.nextInt();
+System.out.print("Enter Hours of Employee "+ (j+1));
+            for(int k=1; k<5; k++){
+		int hours= s.nextInt();
+}
+}
+
+}
+
+
+	
+
+
+
+}
+
+
+}
